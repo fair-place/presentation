@@ -1,0 +1,17 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "marp --watch --html --allow-local-files slides/",
+    "build": "bash scripts/build.sh",
+    "preview": "marp --preview --html --allow-local-files slides/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fair-place/presentation.git"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.3.1"
+  }
+}
