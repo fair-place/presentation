@@ -3,6 +3,7 @@
 ## プロジェクト概要
 Marp + Tailwind CSS によるプレゼンテーション作成基盤。
 スライドは Markdown で記述し、HTML にビルドして GitHub Pages でホスティングする。
+フェアプレイス株式会社のブランドガイドラインに準拠。
 
 ## コマンド
 - 開発サーバー: `npm run dev`
@@ -16,12 +17,14 @@ Marp + Tailwind CSS によるプレゼンテーション作成基盤。
 - スライドサイズ: 1280 x 720px (16:9)
 - Tailwind CSS 3.x をローカルファイルとして読み込み（CDN不可）
 - `tailwind.config.js` で `preflight: false` を設定済み
+- フォント: Jost（英語）+ Noto Sans JP（日本語）をGoogle Fontsで読み込み
 
 ### デザイン原則
-- グレースケール基調。アクセントカラーは1スライドあたり1-2色まで
-- プライマリグラデーション: `linear-gradient(to right, #1B4565, #3E9BA4)`
-- red-600, green-600 による色強調は使用しない。gray系の濃淡で強弱をつける
-- パネルの対比は左: bg-gray-50 + border-gray-400、右: bg-gray-100 + border-gray-500
+- Primary Green（#1A9B6C）基調。アクセントカラーは1スライドあたり1-2色まで
+- プライマリグラデーション: `linear-gradient(to right, #0D7050, #3DB88A)`
+- Blue Accent（#2563C8）の使用は全体7%以内。Fair Pay事業部専用
+- パネルの対比は左: bg-[#F2FAF7] + border-[#1A9B6C]、右: bg-[#D4F2E7] + border-[#0D7050]
+- テキストカラー: 見出し #1A1A2E、本文 #4A4A5A、注釈 #8A8A9A
 
 ### タイポグラフィ
 - text-em-3xl: 数値強調、インパクトキーワード
@@ -31,7 +34,7 @@ Marp + Tailwind CSS によるプレゼンテーション作成基盤。
 - text-em-base: 補足説明
 
 ### コンポーネント共通スタイル
-- パネル/カード: `rounded-xl shadow-lg p-6 border-l-4`
+- パネル/カード: `rounded-xl shadow-brand p-6 border-l-4`（角丸14px、影は控えめ）
 - グリッド: `grid grid-cols-{N} gap-6 mt-6`
 - リスト行間: `space-y-3`
 
@@ -40,6 +43,8 @@ Marp + Tailwind CSS によるプレゼンテーション作成基盤。
 - 感嘆符（!）や疑問符（?）を避ける
 - 装飾的な絵文字を避ける（📊🔄🎯 等の意味を持つアイコン的使用は許容）
 - 1スライド1メッセージを原則とする
+- 丁寧だが堅苦しくない文体。数字と事実で話す
+- 自社は「フェアプレイス」「私たち」と表記
 
 ### レイアウトパターン
 新しいスライドを作成する際は `slides/example.md` の40種のパターンを参照し、

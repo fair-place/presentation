@@ -11,7 +11,13 @@ footer: ''
 <script src="../theme/js/tailwindcss-3.0.16.js"></script>
 <script src="../theme/js/tailwind.config.js"></script>
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;800&family=Noto+Sans+JP:wght@300;400;700&display=swap');
+section { font-family: 'Jost', 'Noto Sans JP', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Jost', 'Noto Sans JP', sans-serif; }
+</style>
+
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 <!-- _paginate: false -->
 
@@ -21,7 +27,7 @@ footer: ''
 
 <div class="text-right absolute bottom-[10%] right-[10%]">
 
-**株式会社サンプル**
+**フェアプレイス株式会社**
 
 </div>
 
@@ -67,7 +73,7 @@ footer: ''
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # A. タイトル・セクション系
@@ -80,7 +86,7 @@ footer: ''
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 <!-- _paginate: false -->
 
@@ -90,13 +96,13 @@ footer: ''
 
 <div class="text-right absolute bottom-[10%] right-[10%]">
 
-**株式会社サンプル 代表取締役 山田太郎**
+**フェアプレイス株式会社 代表 岩﨑喬**
 
 </div>
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # 2. セクション開始スライド
@@ -117,7 +123,7 @@ footer: ''
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #e0f2fe, #ccfbf1)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #D4F2E7, #F2FAF7)" -->
 
 # 3. セクション終了・まとめ
 
@@ -131,7 +137,7 @@ footer: ''
 
 </div>
 
-<div class="mt-8 text-lg text-gray-600">
+<div class="mt-8 text-lg text-[#4A4A5A]">
 
 次章への導入文がここに入ります
 
@@ -144,26 +150,26 @@ footer: ''
 ## 講演全体の構成を示す
 
 <div class="grid grid-cols-3 gap-6 mt-6 text-base">
-<div class="bg-gray-50 rounded-lg shadow p-4">
-  <h1 class="text-em-xl font-bold text-gray-800 mb-3">第1章</h1>
-  <p class="text-em-lg text-gray-600">章タイトル</p>
-  <p class="text-em-base text-gray-400 mt-2">補足説明文</p>
+<div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+  <h1 class="text-em-xl font-bold text-[#1A1A2E] mb-3">第1章</h1>
+  <p class="text-em-lg text-[#4A4A5A]">章タイトル</p>
+  <p class="text-em-base text-[#8A8A9A] mt-2">補足説明文</p>
 </div>
-<div class="bg-gray-50 rounded-lg shadow p-4">
-  <h1 class="text-em-xl font-bold text-gray-800 mb-3">第2章</h1>
-  <p class="text-em-lg text-gray-600">章タイトル</p>
-  <p class="text-em-base text-gray-400 mt-2">補足説明文</p>
+<div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+  <h1 class="text-em-xl font-bold text-[#1A1A2E] mb-3">第2章</h1>
+  <p class="text-em-lg text-[#4A4A5A]">章タイトル</p>
+  <p class="text-em-base text-[#8A8A9A] mt-2">補足説明文</p>
 </div>
-<div class="bg-gray-50 rounded-lg shadow p-4">
-  <h1 class="text-em-xl font-bold text-gray-800 mb-3">第3章</h1>
-  <p class="text-em-lg text-gray-600">章タイトル</p>
-  <p class="text-em-base text-gray-400 mt-2">補足説明文</p>
+<div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+  <h1 class="text-em-xl font-bold text-[#1A1A2E] mb-3">第3章</h1>
+  <p class="text-em-lg text-[#4A4A5A]">章タイトル</p>
+  <p class="text-em-base text-[#8A8A9A] mt-2">補足説明文</p>
 </div>
 </div>
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # 5. クロージングスライド
@@ -184,7 +190,7 @@ footer: ''
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # B. カラムレイアウト系
@@ -202,18 +208,18 @@ footer: ''
 ## 変化を左右で対比させるパターン
 
 <div class="grid grid-cols-2 gap-8 mt-6 text-base">
-  <div class="bg-gray-50 rounded-xl shadow-lg p-6 border-l-4 border-gray-400">
-    <h1 class="text-em-2xl font-bold mb-4 text-gray-800">Before</h1>
-    <ul class="text-em-lg space-y-3 text-gray-700">
+  <div class="bg-[#F2FAF7] rounded-xl shadow-lg p-6 border-l-4 border-[#1A9B6C]">
+    <h1 class="text-em-2xl font-bold mb-4 text-[#1A1A2E]">Before</h1>
+    <ul class="text-em-lg space-y-3 text-[#1A1A2E]">
       <li>山路を登りながら</li>
       <li>智に働けば角が立つ</li>
       <li>情に棹させば流される</li>
       <li>意地を通せば窮屈だ</li>
     </ul>
   </div>
-  <div class="bg-gray-100 rounded-xl shadow-lg p-6 border-l-4 border-gray-500">
-    <h1 class="text-em-2xl font-bold mb-4 text-gray-800">After</h1>
-    <ul class="text-em-lg space-y-3 text-gray-700">
+  <div class="bg-[#D4F2E7] rounded-xl shadow-lg p-6 border-l-4 border-[#0D7050]">
+    <h1 class="text-em-2xl font-bold mb-4 text-[#1A1A2E]">After</h1>
+    <ul class="text-em-lg space-y-3 text-[#1A1A2E]">
       <li>とかくに人の世は住みにくい</li>
       <li>住みにくさが高じると</li>
       <li>安い所へ引き越したくなる</li>
@@ -229,10 +235,10 @@ footer: ''
 ## テキストと画像を横並びに配置
 
 <div class="grid grid-cols-2 gap-8 mt-6 text-base">
-  <div class="bg-gray-50 rounded-xl shadow-lg p-6 border-l-4 border-gray-400">
-    <h1 class="text-em-2xl font-bold mb-4 text-gray-700">テキストエリア</h1>
-    <p class="text-em-lg text-gray-600 mb-4">補足説明がここに入ります</p>
-    <ul class="text-em-base space-y-2 text-gray-600">
+  <div class="bg-[#F2FAF7] rounded-xl shadow-lg p-6 border-l-4 border-[#1A9B6C]">
+    <h1 class="text-em-2xl font-bold mb-4 text-[#1A1A2E]">テキストエリア</h1>
+    <p class="text-em-lg text-[#4A4A5A] mb-4">補足説明がここに入ります</p>
+    <ul class="text-em-base space-y-2 text-[#4A4A5A]">
       <li>特徴1の説明</li>
       <li>特徴2の説明</li>
       <li>特徴3の説明</li>
@@ -254,10 +260,10 @@ footer: ''
   <div class="flex items-center justify-center">
     <img src="../images/example/illust-work.png" alt="イラスト" class="max-h-96" />
   </div>
-  <div class="bg-gray-50 rounded-xl shadow-lg p-6 border-r-4 border-gray-400">
-    <h1 class="text-em-2xl font-bold mb-4 text-gray-700">テキストエリア</h1>
-    <p class="text-em-lg text-gray-600 mb-4">補足説明がここに入ります</p>
-    <ul class="text-em-base space-y-2 text-gray-600">
+  <div class="bg-[#F2FAF7] rounded-xl shadow-lg p-6 border-r-4 border-[#1A9B6C]">
+    <h1 class="text-em-2xl font-bold mb-4 text-[#1A1A2E]">テキストエリア</h1>
+    <p class="text-em-lg text-[#4A4A5A] mb-4">補足説明がここに入ります</p>
+    <ul class="text-em-base space-y-2 text-[#4A4A5A]">
       <li>特徴1の説明</li>
       <li>特徴2の説明</li>
       <li>特徴3の説明</li>
@@ -273,20 +279,20 @@ footer: ''
 ## 画像カードを横に3つ並べる
 
 <div class="grid grid-cols-3 gap-4 mt-6 text-base">
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <img src="../images/example/illust-analytics.png" alt="分析" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-gray-500 object-cover" />
-    <h1 class="text-em-xl font-bold text-gray-700">データ分析</h1>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <img src="../images/example/illust-analytics.png" alt="分析" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-[#0D7050] object-cover" />
+    <h1 class="text-em-xl font-bold text-[#1A1A2E]">データ分析</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <img src="../images/example/illust-teamwork.png" alt="チーム" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-gray-500 object-cover" />
-    <h1 class="text-em-xl font-bold text-gray-700">チームワーク</h1>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <img src="../images/example/illust-teamwork.png" alt="チーム" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-[#0D7050] object-cover" />
+    <h1 class="text-em-xl font-bold text-[#1A1A2E]">チームワーク</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <img src="../images/example/illust-innovation.png" alt="革新" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-gray-500 object-cover" />
-    <h1 class="text-em-xl font-bold text-gray-700">イノベーション</h1>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <img src="../images/example/illust-innovation.png" alt="革新" class="h-32 w-32 mx-auto mb-3 rounded-full border-4 border-[#0D7050] object-cover" />
+    <h1 class="text-em-xl font-bold text-[#1A1A2E]">イノベーション</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
   </div>
 </div>
 
@@ -297,20 +303,20 @@ footer: ''
 ## 色で3つの項目を区別する
 
 <div class="grid grid-cols-3 gap-4 mt-6 text-base">
-  <div class="bg-blue-50 rounded-lg shadow p-6 text-center">
-    <h1 class="text-em-2xl font-bold text-blue-700">項目A</h1>
+  <div class="bg-[#DDEAF9] rounded-lg shadow p-6 text-center">
+    <h1 class="text-em-2xl font-bold text-[#2563C8]">項目A</h1>
     <p class="text-em-lg mt-2">サブタイトル</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに<br />入ります</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに<br />入ります</p>
   </div>
-  <div class="bg-teal-50 rounded-lg shadow p-6 text-center">
-    <h1 class="text-em-2xl font-bold text-teal-700">項目B</h1>
+  <div class="bg-[#D4F2E7] rounded-lg shadow p-6 text-center">
+    <h1 class="text-em-2xl font-bold text-[#0D7050]">項目B</h1>
     <p class="text-em-lg mt-2">サブタイトル</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに<br />入ります</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに<br />入ります</p>
   </div>
-  <div class="bg-cyan-50 rounded-lg shadow p-6 text-center">
-    <h1 class="text-em-2xl font-bold text-cyan-700">項目C</h1>
+  <div class="bg-[#E5F5EF] rounded-lg shadow p-6 text-center">
+    <h1 class="text-em-2xl font-bold text-[#1A9B6C]">項目C</h1>
     <p class="text-em-lg mt-2">サブタイトル</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文がここに<br />入ります</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに<br />入ります</p>
   </div>
 </div>
 
@@ -321,25 +327,25 @@ footer: ''
 ## 4つのフェーズや選択肢を並べる
 
 <div class="grid grid-cols-4 gap-3 mt-6 text-base">
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <h1 class="text-em-2xl font-bold text-gray-700">Phase 1</h1>
-    <p class="text-em-lg mt-2 text-gray-800">フェーズ名</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文<br />ここに入る</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <h1 class="text-em-2xl font-bold text-[#1A1A2E]">Phase 1</h1>
+    <p class="text-em-lg mt-2 text-[#1A1A2E]">フェーズ名</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文<br />ここに入る</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <h1 class="text-em-2xl font-bold text-gray-700">Phase 2</h1>
-    <p class="text-em-lg mt-2 text-gray-800">フェーズ名</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文<br />ここに入る</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <h1 class="text-em-2xl font-bold text-[#1A1A2E]">Phase 2</h1>
+    <p class="text-em-lg mt-2 text-[#1A1A2E]">フェーズ名</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文<br />ここに入る</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 text-center">
-    <h1 class="text-em-2xl font-bold text-gray-700">Phase 3</h1>
-    <p class="text-em-lg mt-2 text-gray-800">フェーズ名</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文<br />ここに入る</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 text-center">
+    <h1 class="text-em-2xl font-bold text-[#1A1A2E]">Phase 3</h1>
+    <p class="text-em-lg mt-2 text-[#1A1A2E]">フェーズ名</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文<br />ここに入る</p>
   </div>
-  <div class="bg-gray-100 rounded-lg shadow p-4 text-center">
-    <h1 class="text-em-2xl font-bold text-gray-700">Phase 4</h1>
-    <p class="text-em-lg mt-2 text-gray-800">フェーズ名</p>
-    <p class="text-em-base text-gray-600 mt-2">説明文<br />ここに入る</p>
+  <div class="bg-[#D4F2E7] rounded-lg shadow p-4 text-center">
+    <h1 class="text-em-2xl font-bold text-[#1A1A2E]">Phase 4</h1>
+    <p class="text-em-lg mt-2 text-[#1A1A2E]">フェーズ名</p>
+    <p class="text-em-base text-[#4A4A5A] mt-2">説明文<br />ここに入る</p>
   </div>
 </div>
 
@@ -350,27 +356,27 @@ footer: ''
 ## 段階的な進化をグラデーションで表現
 
 <div class="grid grid-cols-5 gap-2 mt-4 text-base">
-  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);">
-    <h1 class="text-em-base font-bold text-slate-700">Level 1</h1>
-    <p class="text-em-lg font-medium text-gray-700">レベル名</p>
-    <p class="text-em-base text-gray-500">説明文<br />ここに入る</p>
+  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #F2FAF7 0%, #E5F5EF 100%);">
+    <h1 class="text-em-base font-bold text-[#1A1A2E]">Level 1</h1>
+    <p class="text-em-lg font-medium text-[#1A1A2E]">レベル名</p>
+    <p class="text-em-base text-[#8A8A9A]">説明文<br />ここに入る</p>
   </div>
-  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);">
-    <h1 class="text-em-base font-bold text-blue-700">Level 2</h1>
-    <p class="text-em-lg font-medium text-gray-700">レベル名</p>
-    <p class="text-em-base text-gray-500">説明文<br />ここに入る</p>
+  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #D4F2E7 0%, #A8E6CF 100%);">
+    <h1 class="text-em-base font-bold text-[#2563C8]">Level 2</h1>
+    <p class="text-em-lg font-medium text-[#1A1A2E]">レベル名</p>
+    <p class="text-em-base text-[#8A8A9A]">説明文<br />ここに入る</p>
   </div>
-  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%);">
-    <h1 class="text-em-base font-bold text-teal-700">Level 3</h1>
-    <p class="text-em-lg font-medium text-gray-700">レベル名</p>
-    <p class="text-em-base text-gray-500">説明文<br />ここに入る</p>
+  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #B8EED4 0%, #8DE5BB 100%);">
+    <h1 class="text-em-base font-bold text-[#0D7050]">Level 3</h1>
+    <p class="text-em-lg font-medium text-[#1A1A2E]">レベル名</p>
+    <p class="text-em-base text-[#8A8A9A]">説明文<br />ここに入る</p>
   </div>
-  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #a5f3fc 0%, #67e8f9 100%);">
-    <h1 class="text-em-base font-bold text-cyan-700">Level 4</h1>
-    <p class="text-em-lg font-medium text-gray-700">レベル名</p>
-    <p class="text-em-base text-gray-500">説明文<br />ここに入る</p>
+  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #6DD5A7 0%, #3DB88A 100%);">
+    <h1 class="text-em-base font-bold text-[#1A9B6C]">Level 4</h1>
+    <p class="text-em-lg font-medium text-[#1A1A2E]">レベル名</p>
+    <p class="text-em-base text-[#8A8A9A]">説明文<br />ここに入る</p>
   </div>
-  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #1B4565 0%, #3E9BA4 100%);">
+  <div class="p-3 rounded-lg shadow-sm" style="background: linear-gradient(135deg, #0D7050 0%, #3DB88A 100%);">
     <h1 class="text-em-base font-bold !text-white">Level 5</h1>
     <p class="text-em-lg font-medium !text-white">レベル名</p>
     <p class="text-em-base !text-white/90">説明文<br />ここに入る</p>
@@ -384,32 +390,32 @@ footer: ''
 ## 4つの要素を2行2列で整理
 
 <div class="grid grid-cols-2 gap-4 mt-4 text-base">
-  <div class="bg-gray-50 rounded-lg shadow p-4 flex gap-4 items-center">
-    <img src="../images/example/illust-analytics.png" alt="分析" class="w-24 h-24 rounded-full border-4 border-gray-500 object-cover flex-shrink-0" />
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 flex gap-4 items-center">
+    <img src="../images/example/illust-analytics.png" alt="分析" class="w-24 h-24 rounded-full border-4 border-[#0D7050] object-cover flex-shrink-0" />
     <div>
-      <h1 class="text-em-xl font-bold mb-2 text-gray-800">データ分析</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+      <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">データ分析</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 flex gap-4 items-center">
-    <img src="../images/example/illust-teamwork.png" alt="チーム" class="w-24 h-24 rounded-full border-4 border-gray-500 object-cover flex-shrink-0" />
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 flex gap-4 items-center">
+    <img src="../images/example/illust-teamwork.png" alt="チーム" class="w-24 h-24 rounded-full border-4 border-[#0D7050] object-cover flex-shrink-0" />
     <div>
-      <h1 class="text-em-xl font-bold mb-2 text-gray-800">チームワーク</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+      <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">チームワーク</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 flex gap-4 items-center">
-    <img src="../images/example/illust-innovation.png" alt="革新" class="w-24 h-24 rounded-full border-4 border-gray-500 object-cover flex-shrink-0" />
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 flex gap-4 items-center">
+    <img src="../images/example/illust-innovation.png" alt="革新" class="w-24 h-24 rounded-full border-4 border-[#0D7050] object-cover flex-shrink-0" />
     <div>
-      <h1 class="text-em-xl font-bold mb-2 text-gray-800">イノベーション</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+      <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">イノベーション</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4 flex gap-4 items-center">
-    <img src="../images/example/illust-growth.png" alt="成長" class="w-24 h-24 rounded-full border-4 border-gray-500 object-cover flex-shrink-0" />
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4 flex gap-4 items-center">
+    <img src="../images/example/illust-growth.png" alt="成長" class="w-24 h-24 rounded-full border-4 border-[#0D7050] object-cover flex-shrink-0" />
     <div>
-      <h1 class="text-em-xl font-bold mb-2 text-gray-800">成長戦略</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+      <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">成長戦略</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
 </div>
@@ -421,35 +427,35 @@ footer: ''
 ## 6つの要素を2行3列で整理
 
 <div class="grid grid-cols-3 gap-3 mt-4 text-base">
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目1</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目1</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目2</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目2</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目3</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目3</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目4</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目4</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目5</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目5</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-4">
-    <h1 class="text-em-xl font-bold mb-2 text-gray-800">項目6</h1>
-    <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-4">
+    <h1 class="text-em-xl font-bold mb-2 text-[#1A1A2E]">項目6</h1>
+    <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
   </div>
 </div>
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # C. 縦並びリスト系
@@ -467,25 +473,25 @@ footer: ''
 ## 番号付きで順序を明示する
 
 <div class="grid grid-cols-1 gap-1 mt-1 text-base">
-  <div class="bg-gray-50 rounded-lg shadow py-1 px-2 border-l-4 border-gray-500 flex items-center gap-4">
-    <span class="text-em-2xl font-bold text-gray-400">01</span>
+  <div class="bg-[#F2FAF7] rounded-lg shadow py-1 px-2 border-l-4 border-[#0D7050] flex items-center gap-4">
+    <span class="text-em-2xl font-bold text-[#8A8A9A]">01</span>
     <div>
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">ステップ1</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。吾輩は猫である。</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">ステップ1</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。吾輩は猫である。</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow py-1 px-2 border-l-4 border-gray-500 flex items-center gap-4">
-    <span class="text-em-2xl font-bold text-gray-400">02</span>
+  <div class="bg-[#F2FAF7] rounded-lg shadow py-1 px-2 border-l-4 border-[#0D7050] flex items-center gap-4">
+    <span class="text-em-2xl font-bold text-[#8A8A9A]">02</span>
     <div>
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">ステップ2</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。名前はまだ無い。</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">ステップ2</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。名前はまだ無い。</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow py-1 px-2 border-l-4 border-gray-500 flex items-center gap-4">
-    <span class="text-em-2xl font-bold text-gray-400">03</span>
+  <div class="bg-[#F2FAF7] rounded-lg shadow py-1 px-2 border-l-4 border-[#0D7050] flex items-center gap-4">
+    <span class="text-em-2xl font-bold text-[#8A8A9A]">03</span>
     <div>
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">ステップ3</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。どこで生れたか。</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">ステップ3</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。どこで生れたか。</p>
     </div>
   </div>
 </div>
@@ -498,27 +504,27 @@ footer: ''
 
 <div class="flex gap-2 mt-8 text-base">
   <div class="flex-1 text-center">
-    <div class="w-12 h-12 mx-auto rounded-full bg-gray-200 flex items-center justify-center text-em-xl font-bold text-gray-700">1</div>
-    <h1 class="text-em-lg font-bold mt-3 text-gray-800">ステップ1</h1>
-    <p class="text-em-base text-gray-600 mt-1">説明文が<br />ここに入る</p>
+    <div class="w-12 h-12 mx-auto rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl font-bold text-[#1A1A2E]">1</div>
+    <h1 class="text-em-lg font-bold mt-3 text-[#1A1A2E]">ステップ1</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-1">説明文が<br />ここに入る</p>
   </div>
-  <div class="flex-1 flex items-center justify-center text-gray-300 text-em-2xl">→</div>
+  <div class="flex-1 flex items-center justify-center text-[#8A8A9A] text-em-2xl">→</div>
   <div class="flex-1 text-center">
-    <div class="w-12 h-12 mx-auto rounded-full bg-gray-200 flex items-center justify-center text-em-xl font-bold text-gray-700">2</div>
-    <h1 class="text-em-lg font-bold mt-3 text-gray-800">ステップ2</h1>
-    <p class="text-em-base text-gray-600 mt-1">説明文が<br />ここに入る</p>
+    <div class="w-12 h-12 mx-auto rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl font-bold text-[#1A1A2E]">2</div>
+    <h1 class="text-em-lg font-bold mt-3 text-[#1A1A2E]">ステップ2</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-1">説明文が<br />ここに入る</p>
   </div>
-  <div class="flex-1 flex items-center justify-center text-gray-300 text-em-2xl">→</div>
+  <div class="flex-1 flex items-center justify-center text-[#8A8A9A] text-em-2xl">→</div>
   <div class="flex-1 text-center">
-    <div class="w-12 h-12 mx-auto rounded-full bg-gray-200 flex items-center justify-center text-em-xl font-bold text-gray-700">3</div>
-    <h1 class="text-em-lg font-bold mt-3 text-gray-800">ステップ3</h1>
-    <p class="text-em-base text-gray-600 mt-1">説明文が<br />ここに入る</p>
+    <div class="w-12 h-12 mx-auto rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl font-bold text-[#1A1A2E]">3</div>
+    <h1 class="text-em-lg font-bold mt-3 text-[#1A1A2E]">ステップ3</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-1">説明文が<br />ここに入る</p>
   </div>
-  <div class="flex-1 flex items-center justify-center text-gray-300 text-em-2xl">→</div>
+  <div class="flex-1 flex items-center justify-center text-[#8A8A9A] text-em-2xl">→</div>
   <div class="flex-1 text-center">
-    <div class="w-12 h-12 mx-auto rounded-full bg-gray-300 flex items-center justify-center text-em-xl font-bold text-gray-700">4</div>
-    <h1 class="text-em-lg font-bold mt-3 text-gray-800">ステップ4</h1>
-    <p class="text-em-base text-gray-600 mt-1">説明文が<br />ここに入る</p>
+    <div class="w-12 h-12 mx-auto rounded-full bg-[#B8EED4] flex items-center justify-center text-em-xl font-bold text-[#1A1A2E]">4</div>
+    <h1 class="text-em-lg font-bold mt-3 text-[#1A1A2E]">ステップ4</h1>
+    <p class="text-em-base text-[#4A4A5A] mt-1">説明文が<br />ここに入る</p>
   </div>
 </div>
 
@@ -530,35 +536,35 @@ footer: ''
 
 <div class="mt-1 text-base">
   <div class="flex gap-3 mb-1">
-    <div class="w-14 text-right text-em-base font-bold text-gray-500">2020</div>
+    <div class="w-14 text-right text-em-base font-bold text-[#8A8A9A]">2020</div>
     <div class="w-4 flex flex-col items-center">
-      <div class="w-3 h-3 rounded-full bg-gray-400"></div>
-      <div class="w-0.5 flex-1 bg-gray-300"></div>
+      <div class="w-3 h-3 rounded-full bg-[#1A9B6C]"></div>
+      <div class="w-0.5 flex-1 bg-[#B8EED4]"></div>
     </div>
-    <div class="flex-1 bg-gray-50 rounded-lg py-1 px-2">
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">イベント1</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+    <div class="flex-1 bg-[#F2FAF7] rounded-lg py-1 px-2">
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">イベント1</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
   <div class="flex gap-3 mb-1">
-    <div class="w-14 text-right text-em-base font-bold text-gray-500">2022</div>
+    <div class="w-14 text-right text-em-base font-bold text-[#8A8A9A]">2022</div>
     <div class="w-4 flex flex-col items-center">
-      <div class="w-3 h-3 rounded-full bg-gray-400"></div>
-      <div class="w-0.5 flex-1 bg-gray-300"></div>
+      <div class="w-3 h-3 rounded-full bg-[#1A9B6C]"></div>
+      <div class="w-0.5 flex-1 bg-[#B8EED4]"></div>
     </div>
-    <div class="flex-1 bg-gray-50 rounded-lg py-1 px-2">
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">イベント2</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+    <div class="flex-1 bg-[#F2FAF7] rounded-lg py-1 px-2">
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">イベント2</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
   <div class="flex gap-3">
-    <div class="w-14 text-right text-em-base font-bold text-gray-500">2024</div>
+    <div class="w-14 text-right text-em-base font-bold text-[#8A8A9A]">2024</div>
     <div class="w-4 flex flex-col items-center">
-      <div class="w-3 h-3 rounded-full bg-gray-500"></div>
+      <div class="w-3 h-3 rounded-full bg-[#F2FAF7]0"></div>
     </div>
-    <div class="flex-1 bg-gray-100 rounded-lg py-1 px-2">
-      <h1 class="text-em-lg font-bold text-gray-800 mb-0">イベント3</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります</p>
+    <div class="flex-1 bg-[#D4F2E7] rounded-lg py-1 px-2">
+      <h1 class="text-em-lg font-bold text-[#1A1A2E] mb-0">イベント3</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります</p>
     </div>
   </div>
 </div>
@@ -570,32 +576,32 @@ footer: ''
 ## 絵文字やアイコンで視覚的に区別
 
 <div class="grid grid-cols-1 gap-2 mt-4 text-base">
-  <div class="bg-gray-50 rounded-lg p-3 flex items-center gap-4">
-    <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-em-xl flex-shrink-0">📊</div>
+  <div class="bg-[#F2FAF7] rounded-lg p-3 flex items-center gap-4">
+    <div class="w-10 h-10 rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl flex-shrink-0">📊</div>
     <div>
-      <h1 class="text-em-xl font-bold text-gray-800">項目タイトル1</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。山路を登りながら。</p>
+      <h1 class="text-em-xl font-bold text-[#1A1A2E]">項目タイトル1</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。山路を登りながら。</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg p-3 flex items-center gap-4">
-    <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-em-xl flex-shrink-0">🔄</div>
+  <div class="bg-[#F2FAF7] rounded-lg p-3 flex items-center gap-4">
+    <div class="w-10 h-10 rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl flex-shrink-0">🔄</div>
     <div>
-      <h1 class="text-em-xl font-bold text-gray-800">項目タイトル2</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。智に働けば角が立つ。</p>
+      <h1 class="text-em-xl font-bold text-[#1A1A2E]">項目タイトル2</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。智に働けば角が立つ。</p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg p-3 flex items-center gap-4">
-    <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-em-xl flex-shrink-0">🎯</div>
+  <div class="bg-[#F2FAF7] rounded-lg p-3 flex items-center gap-4">
+    <div class="w-10 h-10 rounded-full bg-[#D4F2E7] flex items-center justify-center text-em-xl flex-shrink-0">🎯</div>
     <div>
-      <h1 class="text-em-xl font-bold text-gray-800">項目タイトル3</h1>
-      <p class="text-em-base text-gray-600">説明文がここに入ります。情に棹させば流される。</p>
+      <h1 class="text-em-xl font-bold text-[#1A1A2E]">項目タイトル3</h1>
+      <p class="text-em-base text-[#4A4A5A]">説明文がここに入ります。情に棹させば流される。</p>
     </div>
   </div>
 </div>
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # D. パネルデザイン系
@@ -613,20 +619,20 @@ footer: ''
 ## 画像とテキストを組み合わせたカード
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-gray-50 rounded-lg shadow overflow-hidden">
+  <div class="bg-[#F2FAF7] rounded-lg shadow overflow-hidden">
     <img src="../images/example/illust-target.png" alt="目標" class="w-full h-24 object-cover" />
     <div class="p-5">
-      <h1 class="text-em-xl font-bold mb-3 text-gray-800">パネルタイトル1</h1>
-      <p class="text-em-base text-gray-600">
+      <h1 class="text-em-xl font-bold mb-3 text-[#1A1A2E]">パネルタイトル1</h1>
+      <p class="text-em-base text-[#4A4A5A]">
         説明文がここに入ります。吾輩は猫である。名前はまだ無い。
       </p>
     </div>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow overflow-hidden">
+  <div class="bg-[#F2FAF7] rounded-lg shadow overflow-hidden">
     <img src="../images/example/illust-collaboration.png" alt="協力" class="w-full h-24 object-cover" />
     <div class="p-5">
-      <h1 class="text-em-xl font-bold mb-3 text-gray-800">パネルタイトル2</h1>
-      <p class="text-em-base text-gray-600">
+      <h1 class="text-em-xl font-bold mb-3 text-[#1A1A2E]">パネルタイトル2</h1>
+      <p class="text-em-base text-[#4A4A5A]">
         説明文がここに入ります。どこで生れたかとんと見当がつかぬ。
       </p>
     </div>
@@ -640,15 +646,15 @@ footer: ''
 ## 左端のラインで重要度を示す
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-gray-50 rounded-xl shadow-lg p-6 border-l-4 border-gray-400">
-    <h1 class="text-em-xl font-bold mb-3 text-gray-800">パネルタイトル1</h1>
-    <p class="text-em-base text-gray-600">
+  <div class="bg-[#F2FAF7] rounded-xl shadow-lg p-6 border-l-4 border-[#1A9B6C]">
+    <h1 class="text-em-xl font-bold mb-3 text-[#1A1A2E]">パネルタイトル1</h1>
+    <p class="text-em-base text-[#4A4A5A]">
       説明文がここに入ります。吾輩は猫である。名前はまだ無い。
     </p>
   </div>
-  <div class="bg-gray-100 rounded-xl shadow-lg p-6 border-l-4 border-gray-500">
-    <h1 class="text-em-xl font-bold mb-3 text-gray-800">パネルタイトル2</h1>
-    <p class="text-em-base text-gray-600">
+  <div class="bg-[#D4F2E7] rounded-xl shadow-lg p-6 border-l-4 border-[#0D7050]">
+    <h1 class="text-em-xl font-bold mb-3 text-[#1A1A2E]">パネルタイトル2</h1>
+    <p class="text-em-base text-[#4A4A5A]">
       説明文がここに入ります。どこで生れたかとんと見当がつかぬ。
     </p>
   </div>
@@ -660,7 +666,7 @@ footer: ''
 
 ## 背景を透かして洗練された印象に
 
-<div class="rounded-xl overflow-hidden mt-2 p-8" style="background: linear-gradient(135deg, #1B4565 0%, #3E9BA4 100%);">
+<div class="rounded-xl overflow-hidden mt-2 p-8" style="background: linear-gradient(135deg, #0D7050 0%, #3DB88A 100%);">
   <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 text-white">
     <h1 class="text-em-2xl font-bold mb-4">ガラス風パネルタイトル</h1>
     <p class="text-em-lg">
@@ -676,15 +682,15 @@ footer: ''
 ## 色の変化で目を引くパネル
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="p-6 rounded-xl shadow-lg" style="background: linear-gradient(135deg, #1B4565 0%, #3E9BA4 100%);">
+  <div class="p-6 rounded-xl shadow-lg" style="background: linear-gradient(135deg, #0D7050 0%, #3DB88A 100%);">
     <h1 class="text-em-2xl font-bold mb-3 !text-white">濃いグラデーション</h1>
     <p class="text-em-lg !text-white/90">
       説明文がここに入ります。重要な情報を強調する場合に使用します。
     </p>
   </div>
-  <div class="p-6 rounded-xl shadow-lg" style="background: linear-gradient(135deg, #e0f2fe 0%, #ccfbf1 100%);">
-    <h1 class="text-em-2xl font-bold mb-3 text-gray-800">淡いグラデーション</h1>
-    <p class="text-em-lg text-gray-700">
+  <div class="p-6 rounded-xl shadow-lg" style="background: linear-gradient(135deg, #D4F2E7 0%, #F2FAF7 100%);">
+    <h1 class="text-em-2xl font-bold mb-3 text-[#1A1A2E]">淡いグラデーション</h1>
+    <p class="text-em-lg text-[#1A1A2E]">
       説明文がここに入ります。まとめや補足情報に使用します。
     </p>
   </div>
@@ -700,32 +706,32 @@ footer: ''
   <div class="bg-white rounded-xl shadow-lg overflow-hidden">
     <img src="../images/example/illust-growth.png" alt="成長" class="w-full h-28 object-cover" />
     <div class="p-4">
-      <h1 class="text-em-lg font-bold text-gray-800">成長戦略</h1>
-      <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
-      <p class="text-em-base text-gray-400 mt-3">補足情報</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E]">成長戦略</h1>
+      <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
+      <p class="text-em-base text-[#8A8A9A] mt-3">補足情報</p>
     </div>
   </div>
   <div class="bg-white rounded-xl shadow-lg overflow-hidden">
     <img src="../images/example/illust-target.png" alt="目標" class="w-full h-28 object-cover" />
     <div class="p-4">
-      <h1 class="text-em-lg font-bold text-gray-800">目標達成</h1>
-      <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
-      <p class="text-em-base text-gray-400 mt-3">補足情報</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E]">目標達成</h1>
+      <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
+      <p class="text-em-base text-[#8A8A9A] mt-3">補足情報</p>
     </div>
   </div>
   <div class="bg-white rounded-xl shadow-lg overflow-hidden">
     <img src="../images/example/illust-collaboration.png" alt="協力" class="w-full h-28 object-cover" />
     <div class="p-4">
-      <h1 class="text-em-lg font-bold text-gray-800">協業推進</h1>
-      <p class="text-em-base text-gray-600 mt-2">説明文がここに入ります</p>
-      <p class="text-em-base text-gray-400 mt-3">補足情報</p>
+      <h1 class="text-em-lg font-bold text-[#1A1A2E]">協業推進</h1>
+      <p class="text-em-base text-[#4A4A5A] mt-2">説明文がここに入ります</p>
+      <p class="text-em-base text-[#8A8A9A] mt-3">補足情報</p>
     </div>
   </div>
 </div>
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # E. 背景・画像系
@@ -775,7 +781,7 @@ brightness:0.5 で明度50%に調整
 
 </div>
 
-<div class="mt-6 bg-gray-50 rounded-lg p-4">
+<div class="mt-6 bg-[#F2FAF7] rounded-lg p-4">
 
 説明文がここに入ります。吾輩は猫である。名前はまだ無い。
 
@@ -792,11 +798,11 @@ brightness:0.5 で明度50%に調整
 ## 印象的な言葉を引用する
 
 <div class="bg-white/90 rounded-lg p-6 shadow-lg max-w-2xl mx-auto mt-12">
-<blockquote class="text-xl text-gray-800 m-0 italic">
+<blockquote class="text-xl text-[#1A1A2E] m-0 italic">
 
 「引用文がここに入ります。山路を登りながら、こう考えた。」
 
-<div class="text-right mt-4 text-gray-600 not-italic">
+<div class="text-right mt-4 text-[#4A4A5A] not-italic">
 
 — 引用元
 
@@ -819,7 +825,7 @@ brightness:0.5 で明度50%に調整
   </div>
 </div>
 
-<div class="mt-4 text-center text-gray-500">
+<div class="mt-4 text-center text-[#8A8A9A]">
 
 複数の画像を横並びで配置するパターン
 
@@ -827,7 +833,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # F. 強調・特殊系
@@ -845,12 +851,12 @@ brightness:0.5 で明度50%に調整
 ## 大きな数字でインパクトを出す
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-slate-100 rounded-xl shadow-lg p-8 text-center">
-    <p class="text-em-lg text-slate-600">ラベル1</p>
-    <p class="text-em-3xl font-bold text-slate-800 mt-4">00万人</p>
-    <p class="text-em-base text-slate-500 mt-2">補足説明</p>
+  <div class="bg-[#F2FAF7] rounded-xl shadow-lg p-8 text-center">
+    <p class="text-em-lg text-[#4A4A5A]">ラベル1</p>
+    <p class="text-em-3xl font-bold text-[#1A1A2E] mt-4">00万人</p>
+    <p class="text-em-base text-[#8A8A9A] mt-2">補足説明</p>
   </div>
-  <div class="rounded-xl shadow-lg p-8 text-center" style="background: linear-gradient(135deg, #1B4565 0%, #3E9BA4 100%);">
+  <div class="rounded-xl shadow-lg p-8 text-center" style="background: linear-gradient(135deg, #0D7050 0%, #3DB88A 100%);">
     <p class="text-em-lg text-white/80">ラベル2</p>
     <p class="text-em-3xl font-bold text-white mt-4">00%</p>
     <p class="text-em-base text-white/70 mt-2">補足説明</p>
@@ -864,13 +870,13 @@ brightness:0.5 で明度50%に調整
 ## シンプルに一言を伝える
 
 <div class="flex flex-col items-center justify-center mt-6">
-  <div class="text-em-2xl font-bold text-gray-800 text-center">
+  <div class="text-em-2xl font-bold text-[#1A1A2E] text-center">
     大きなメッセージが<br />ここに入ります
   </div>
-  <div class="text-em-lg text-gray-500 mt-6 text-center">
+  <div class="text-em-lg text-[#8A8A9A] mt-6 text-center">
     English message here
   </div>
-  <div class="text-em-base text-gray-400 mt-4">
+  <div class="text-em-base text-[#8A8A9A] mt-4">
     — 引用元, 年
   </div>
 </div>
@@ -883,19 +889,19 @@ brightness:0.5 で明度50%に調整
 
 <div class="flex items-center justify-center h-80">
   <div class="text-center">
-    <div class="text-em-3xl font-bold text-gray-800 mb-6">Q&A</div>
-    <div class="text-em-xl text-gray-600">ご質問をお待ちしています</div>
-    <div class="mt-8 grid grid-cols-3 gap-8 text-base text-gray-500">
+    <div class="text-em-3xl font-bold text-[#1A1A2E] mb-6">Q&A</div>
+    <div class="text-em-xl text-[#4A4A5A]">ご質問をお待ちしています</div>
+    <div class="mt-8 grid grid-cols-3 gap-8 text-base text-[#8A8A9A]">
       <div>
-        <p class="font-bold text-gray-700">Email</p>
+        <p class="font-bold text-[#1A1A2E]">Email</p>
         <p>sample@example.com</p>
       </div>
       <div>
-        <p class="font-bold text-gray-700">Twitter</p>
+        <p class="font-bold text-[#1A1A2E]">Twitter</p>
         <p>@sample</p>
       </div>
       <div>
-        <p class="font-bold text-gray-700">Website</p>
+        <p class="font-bold text-[#1A1A2E]">Website</p>
         <p>example.com</p>
       </div>
     </div>
@@ -904,7 +910,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # G. 応用パターン系
@@ -917,7 +923,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # 30. QRコード付き紹介
@@ -930,7 +936,7 @@ brightness:0.5 で明度50%に調整
     タイトルがここに入ります
   </div>
   <div class="mt-2">
-    <a href="https://example.com" target="_blank" class="text-blue-300 underline">
+    <a href="https://example.com" target="_blank" class="text-[#DDEAF9] underline">
       https://example.com
     </a>
   </div>
@@ -956,7 +962,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 ![bg brightness:0.4](../images/example/sample-background.png)
@@ -966,7 +972,7 @@ brightness:0.5 で明度50%に調整
 ## 映画のセリフを引用して印象づける
 
 <div class="bg-white/90 rounded-lg p-6 mb-6 shadow-lg">
-<blockquote class="text-xl text-gray-800 m-0">
+<blockquote class="text-xl text-[#1A1A2E] m-0">
 
 「引用文の1行目がここに入ります」
 
@@ -994,9 +1000,9 @@ brightness:0.5 で明度50%に調整
     <img src="../images/example/illust-teamwork.png" alt="チームワーク" class="h-56 rounded-lg shadow-lg" />
   </div>
   <div class="flex flex-col justify-center">
-    <h2 class="text-em-xl font-bold text-gray-800 mb-3">画像をコンテンツ内に配置</h2>
-    <p class="text-em-base text-gray-600 mb-3">説明文がここに入ります。画像とテキストを横並びで配置するパターンです。</p>
-    <ul class="text-em-base text-gray-600 space-y-1">
+    <h2 class="text-em-xl font-bold text-[#1A1A2E] mb-3">画像をコンテンツ内に配置</h2>
+    <p class="text-em-base text-[#4A4A5A] mb-3">説明文がここに入ります。画像とテキストを横並びで配置するパターンです。</p>
+    <ul class="text-em-base text-[#4A4A5A] space-y-1">
       <li>HTMLのimgタグで配置</li>
       <li>Tailwindでサイズ調整</li>
       <li>flexで整列</li>
@@ -1011,24 +1017,24 @@ brightness:0.5 で明度50%に調整
 ## 数値データを視覚的に比較する
 
 <div class="grid grid-cols-3 gap-4 mt-6 text-base">
-  <div class="bg-gray-100 rounded-lg shadow p-6 text-center">
-    <p class="text-em-3xl font-bold text-gray-600">90%</p>
+  <div class="bg-[#D4F2E7] rounded-lg shadow p-6 text-center">
+    <p class="text-em-3xl font-bold text-[#4A4A5A]">90%</p>
     <p class="text-em-lg mt-2">カテゴリ1</p>
-    <p class="text-em-base text-gray-500 mt-2">説明文</p>
+    <p class="text-em-base text-[#8A8A9A] mt-2">説明文</p>
   </div>
-  <div class="bg-gray-200 rounded-lg shadow p-6 text-center">
-    <p class="text-em-3xl font-bold text-gray-700">9%</p>
+  <div class="bg-[#D4F2E7] rounded-lg shadow p-6 text-center">
+    <p class="text-em-3xl font-bold text-[#1A1A2E]">9%</p>
     <p class="text-em-lg mt-2">カテゴリ2</p>
-    <p class="text-em-base text-gray-500 mt-2">説明文</p>
+    <p class="text-em-base text-[#8A8A9A] mt-2">説明文</p>
   </div>
-  <div class="rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, #1B4565 0%, #3E9BA4 100%);">
+  <div class="rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, #0D7050 0%, #3DB88A 100%);">
     <p class="text-em-3xl font-bold text-white">1%</p>
     <p class="text-em-lg mt-2 text-white">カテゴリ3</p>
     <p class="text-em-base text-white/80 mt-2">説明文</p>
   </div>
 </div>
 
-<div class="mt-6 p-4 bg-gray-50 rounded-lg border-l-4 border-gray-400">
+<div class="mt-6 p-4 bg-[#F2FAF7] rounded-lg border-l-4 border-[#1A9B6C]">
 
 **結論文がここに入ります** — 補足説明
 
@@ -1041,13 +1047,13 @@ brightness:0.5 で明度50%に調整
 ## 説明文と数値を組み合わせる
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-slate-100 rounded-lg shadow p-6">
-    <h1 class="text-em-xl font-bold mb-4 text-slate-700">統計ラベル</h1>
-    <p class="text-em-3xl font-bold text-slate-600">00万人</p>
-    <p class="text-em-lg text-slate-700 mt-2">補足説明</p>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-6">
+    <h1 class="text-em-xl font-bold mb-4 text-[#1A1A2E]">統計ラベル</h1>
+    <p class="text-em-3xl font-bold text-[#4A4A5A]">00万人</p>
+    <p class="text-em-lg text-[#1A1A2E] mt-2">補足説明</p>
   </div>
-  <div class="bg-gray-50 rounded-lg shadow p-6">
-    <h1 class="text-em-xl font-bold mb-4 text-gray-700">テキストラベル</h1>
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-6">
+    <h1 class="text-em-xl font-bold mb-4 text-[#1A1A2E]">テキストラベル</h1>
     <ul class="text-em-lg space-y-2">
       <li>リスト項目1</li>
       <li>リスト項目2</li>
@@ -1092,7 +1098,7 @@ brightness:0.5 で明度50%に調整
 - リスト項目3がここに入ります。情に棹させば流される。
 - **強調したいリスト項目がここに入ります**
 
-<div class="mt-6 p-4 bg-gray-50 rounded-lg border-l-4 border-gray-400">
+<div class="mt-6 p-4 bg-[#F2FAF7] rounded-lg border-l-4 border-[#1A9B6C]">
 
 補足説明文がここに入ります。
 次のアクションへの導入など。
@@ -1101,7 +1107,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # 38. 対比+結論スライド
@@ -1109,17 +1115,17 @@ brightness:0.5 で明度50%に調整
 ## 二項対立から結論を導く
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-gray-50 rounded-lg shadow p-6">
-    <h1 class="text-em-xl font-bold mb-4 text-gray-700">概念A</h1>
-    <ul class="text-em-base space-y-2 text-gray-600">
+  <div class="bg-[#F2FAF7] rounded-lg shadow p-6">
+    <h1 class="text-em-xl font-bold mb-4 text-[#1A1A2E]">概念A</h1>
+    <ul class="text-em-base space-y-2 text-[#4A4A5A]">
       <li>特徴1の説明</li>
       <li>特徴2の説明</li>
       <li>特徴3の説明</li>
     </ul>
   </div>
-  <div class="bg-blue-50 rounded-lg shadow p-6">
-    <h1 class="text-em-xl font-bold mb-4 text-blue-700">概念B</h1>
-    <ul class="text-em-base space-y-2 text-gray-600">
+  <div class="bg-[#DDEAF9] rounded-lg shadow p-6">
+    <h1 class="text-em-xl font-bold mb-4 text-[#2563C8]">概念B</h1>
+    <ul class="text-em-base space-y-2 text-[#4A4A5A]">
       <li>特徴1の説明</li>
       <li>特徴2の説明</li>
       <li>特徴3の説明</li>
@@ -1134,15 +1140,15 @@ brightness:0.5 で明度50%に調整
 ## 複数企業の取り組みを並べて紹介
 
 <div class="grid grid-cols-2 gap-6 mt-6 text-base">
-  <div class="bg-white rounded-lg shadow p-6 border-l-4 border-blue-500">
-    <h1 class="text-em-2xl font-bold text-blue-700">企業名A</h1>
+  <div class="bg-white rounded-lg shadow p-6 border-l-4 border-[#2563C8]">
+    <h1 class="text-em-2xl font-bold text-[#2563C8]">企業名A</h1>
     <p class="text-em-lg mt-2">数値データ</p>
-    <p class="text-em-base text-gray-500">補足説明</p>
+    <p class="text-em-base text-[#8A8A9A]">補足説明</p>
   </div>
-  <div class="bg-white rounded-lg shadow p-6 border-l-4 border-teal-500">
-    <h1 class="text-em-2xl font-bold text-teal-700">企業名B</h1>
+  <div class="bg-white rounded-lg shadow p-6 border-l-4 border-[#1A9B6C]">
+    <h1 class="text-em-2xl font-bold text-[#0D7050]">企業名B</h1>
     <p class="text-em-lg mt-2">数値データ</p>
-    <p class="text-em-base text-gray-500">補足説明</p>
+    <p class="text-em-base text-[#8A8A9A]">補足説明</p>
   </div>
 </div>
 
@@ -1154,7 +1160,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #e0f2fe, #ccfbf1)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #D4F2E7, #F2FAF7)" -->
 
 # パターン一覧（まとめ）
 
@@ -1214,7 +1220,7 @@ brightness:0.5 で明度50%に調整
 
 ---
 
-<!-- _backgroundImage: "linear-gradient(to right, #1B4565, #3E9BA4)" -->
+<!-- _backgroundImage: "linear-gradient(to right, #0D7050, #3DB88A)" -->
 <!-- _color: #fff -->
 
 # ご清聴ありがとうございました
